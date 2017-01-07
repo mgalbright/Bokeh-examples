@@ -8,7 +8,7 @@ python graph.py
 This will create an html file (graph.html) containing the interactive graph.
 
 If instead you want to make interactive graphs from a Jupyter notebook,
-comment out the line
+in `graph.py` comment out the line
 ```python
 output_file("graph.html")
 ```
