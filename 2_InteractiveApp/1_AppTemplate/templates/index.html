@@ -1,0 +1,27 @@
+<!--Simple html page. Bokeh plot will be embedded in the body-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+            body {
+              font-family: 'Noto Sans', sans-serif;
+              -webkit-font-smoothing: antialiased;
+              text-rendering: optimizeLegibility;
+              color: #000000;
+              background: #FFFFFF;
+             }
+        </style>
+        <meta charset="utf-8">
+
+        {{ bokeh_css }}
+        {{ bokeh_js }}
+    </head>
+    <body>
+        <!--Here's where the Bokeh plot and widgets are inserted-->
+        {{ plot_div|indent(8) }}
+        {{ plot_script|indent(8) }}
+    </body>
+</html>
+
