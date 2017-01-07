@@ -5,10 +5,11 @@ I made to facilitate the rapid deployment of Bokeh graphs and
 interactive websites in python.
 
 Note: Bokeh is commonly used in two ways
+
 1. Make graphs (to be inserted into static 
-html documents or Juypter notebooks).
+ html documents or Juypter notebooks).
 2. Make interactive web sites from python without needing HTML or javascript (similar
-to [Shiny](https://shiny.rstudio.com/) in R).  
+ to [Shiny](https://shiny.rstudio.com/) in R).  
  
 The folder *1_SimpleGraph* shows a minimal example of making a graph (only).  
 
