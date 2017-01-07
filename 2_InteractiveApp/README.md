@@ -2,14 +2,14 @@
 
 Reusable examples of Bokeh webapps.
 
-**1_AppTemplate** contains a reusable template for an interactive webapp made with Bokeh.
+The folder *1_AppTemplate* contains a reusable template for an interactive webapp made with Bokeh.
 It is meant to be easily modified to build your own custom web app.  
 
 
-As an example, in **2_GraphEconData** I used the template to quickly build
-a webapp to graph US economic data from the Federal Reserve.  
+As an example, in *2_GraphEconData* I used the template to quickly build
+a web app to graph US economic data from the Federal Reserve.  
 
-To run the example in **1_AppTemplate**, open a terminal to this folder and run
+To run the example in *1_AppTemplate*, open a terminal to this folder and run
 ```bash
 bokeh serve --show 1_AppTemplate/
 ```
