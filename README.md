@@ -7,7 +7,7 @@ interactive websites in python.
 Note: Bokeh is commonly used in two ways
 
 1. Make graphs (to be inserted into static 
- html documents or Juypter notebooks).
+ html documents or Jupyter notebooks).
 2. Make interactive web sites from python without needing HTML or javascript (similar
  to [Shiny](https://shiny.rstudio.com/) in R).  
  
